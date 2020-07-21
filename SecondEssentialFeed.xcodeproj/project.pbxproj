@@ -9,6 +9,7 @@
 /* Begin PBXBuildFile section */
 		FACD1C6624C68E4200B7B86B /* SecondEssentialFeed.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = FACD1C5C24C68E4200B7B86B /* SecondEssentialFeed.framework */; };
 		FACD1C7724C68E9300B7B86B /* FeedItem.swift in Sources */ = {isa = PBXBuildFile; fileRef = FACD1C7624C68E9300B7B86B /* FeedItem.swift */; };
+		FACD1C7924C6904500B7B86B /* FeedLoader.swift in Sources */ = {isa = PBXBuildFile; fileRef = FACD1C7824C6904500B7B86B /* FeedLoader.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -27,6 +28,7 @@
 		FACD1C6524C68E4200B7B86B /* SecondEssentialFeedTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = SecondEssentialFeedTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		FACD1C6C24C68E4200B7B86B /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		FACD1C7624C68E9300B7B86B /* FeedItem.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FeedItem.swift; sourceTree = "<group>"; };
+		FACD1C7824C6904500B7B86B /* FeedLoader.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FeedLoader.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -71,6 +73,7 @@
 			children = (
 				FACD1C6024C68E4200B7B86B /* Info.plist */,
 				FACD1C7624C68E9300B7B86B /* FeedItem.swift */,
+				FACD1C7824C6904500B7B86B /* FeedLoader.swift */,
 			);
 			path = SecondEssentialFeed;
 			sourceTree = "<group>";
@@ -192,6 +195,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				FACD1C7924C6904500B7B86B /* FeedLoader.swift in Sources */,
 				FACD1C7724C68E9300B7B86B /* FeedItem.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
