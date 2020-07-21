@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		FA8905A024C6A031009EF6D4 /* RemoteFeedLoaderTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = FA89059F24C6A031009EF6D4 /* RemoteFeedLoaderTests.swift */; };
 		FACD1C6624C68E4200B7B86B /* SecondEssentialFeed.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = FACD1C5C24C68E4200B7B86B /* SecondEssentialFeed.framework */; };
 		FACD1C7724C68E9300B7B86B /* FeedItem.swift in Sources */ = {isa = PBXBuildFile; fileRef = FACD1C7624C68E9300B7B86B /* FeedItem.swift */; };
 		FACD1C7924C6904500B7B86B /* FeedLoader.swift in Sources */ = {isa = PBXBuildFile; fileRef = FACD1C7824C6904500B7B86B /* FeedLoader.swift */; };
@@ -23,6 +24,7 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		FA89059F24C6A031009EF6D4 /* RemoteFeedLoaderTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RemoteFeedLoaderTests.swift; sourceTree = "<group>"; };
 		FACD1C5C24C68E4200B7B86B /* SecondEssentialFeed.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = SecondEssentialFeed.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		FACD1C6024C68E4200B7B86B /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		FACD1C6524C68E4200B7B86B /* SecondEssentialFeedTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = SecondEssentialFeedTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -82,6 +84,7 @@
 			isa = PBXGroup;
 			children = (
 				FACD1C6C24C68E4200B7B86B /* Info.plist */,
+				FA89059F24C6A031009EF6D4 /* RemoteFeedLoaderTests.swift */,
 			);
 			path = SecondEssentialFeedTests;
 			sourceTree = "<group>";
@@ -151,6 +154,7 @@
 					};
 					FACD1C6424C68E4200B7B86B = {
 						CreatedOnToolsVersion = 11.4;
+						LastSwiftMigration = 1140;
 					};
 				};
 			};
@@ -204,6 +208,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				FA8905A024C6A031009EF6D4 /* RemoteFeedLoaderTests.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -390,6 +395,7 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CLANG_ENABLE_MODULES = YES;
 				CODE_SIGN_STYLE = Automatic;
 				COMBINE_HIDPI_IMAGES = YES;
 				INFOPLIST_FILE = SecondEssentialFeedTests/Info.plist;
@@ -400,6 +406,7 @@
 				);
 				PRODUCT_BUNDLE_IDENTIFIER = duyBui.asnet.iosTeam.SecondEssentialFeedTests;
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
 				SWIFT_VERSION = 5.0;
 			};
 			name = Debug;
@@ -408,6 +415,7 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CLANG_ENABLE_MODULES = YES;
 				CODE_SIGN_STYLE = Automatic;
 				COMBINE_HIDPI_IMAGES = YES;
 				INFOPLIST_FILE = SecondEssentialFeedTests/Info.plist;
